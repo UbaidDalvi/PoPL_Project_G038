@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-The project aims to compare the performance of image processing implemented in Halide and Python. The focus is on tiled image processing, specifically evaluating the execution time and resource utilization for various operations such as brightness adjustment, grayscale conversion, and blur. The primary goal is to identify the efficiency and computational advantages of Halide compared to a Python implementation.
+The project aims to compare the performance of image processing implemented in Halide and Python. The focus is on tiled image processing, specifically evaluating the execution time and resource utilization for various operations such as brightness adjustment, grayscale conversion, and blur. The primary goal is to identify the efficiency and computational advantages of Halide compared to a Python implementation.Image processing is crucial for tasks like medical diagnostics, facial recognition, and autonomous vehicles.The problem has been partially solved before. While significant progress has been made, challenges persist in improving accuracy, handling diverse datasets, and enhancing real-time processing speed. Ongoing efforts focus on refining algorithms, addressing ethical concerns, and adapting to emerging technologies for continued advancements in the field.
 
 ### POPL Angle
 
