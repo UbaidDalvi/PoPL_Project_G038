@@ -1,6 +1,18 @@
 /*
-g++ combine*.cpp -g -I /home/dalviubaid02/Downloads/halide_build/include/ -I /home/dalviubaid02/Downloads/halide_build/distrib/tools/ -L /home/dalviubaid02/Downloads/halide_build/distrib/lib/ -lHalide `libpng-config --cflags --ldflags` -ljpeg -lpthread -ldl -o halide -std=c++17 
-LD_LIBRARY_PATH=/home/dalviubaid02/Downloads/halide_build/distrib/lib/ ./halide
+For compiling this code, you need to build the Halide tree which is available on https://halide-lang.org/
+Run these 2 commands to get the required result:
+ g++ halide_without_tiling*.cpp -g -I /home/dalviubaid02/Downloads/halide_build/include/ -I /home/dalviubaid02/Downloads/halide_build/distrib/tools/ -L /home/dalviubaid02/Downloads/halide_build/distrib/lib/ -lHalide `libpng-config --cflags --ldflags` -ljpeg -lpthread -ldl -o halide -std=c++17 
+ LD_LIBRARY_PATH=/home/dalviubaid02/Downloads/halide_build/distrib/lib/ ./halide
+
+NOTE:
+Change the path of the Images before executing these command to the path of the Image in your system"
+*/
+
+
+/*
+
+To generate Performance metrics using perf command execeute the below command:
+LD_LIBRARY_PATH=/home/dalviubaid02/Downloads/halide_build/distrib/lib/ perf stat ./halide 
 */
 
 
