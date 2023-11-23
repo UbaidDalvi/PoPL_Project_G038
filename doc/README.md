@@ -1,14 +1,14 @@
 # Performance Analysis of Tiled Image Processing in Halide vs. Python
 
+![Home_page_Image](../results/result.png)
+
 ## Problem Statement
 
-The project aims to compare the performance of image processing implemented in Halide and Python. The focus is on tiled image processing, specifically evaluating the execution time and resource utilization for various operations such as brightness adjustment, grayscale conversion, and blur. The primary goal is to identify the efficiency and computational advantages of Halide compared to a Python implementation.
+The project aims to compare the performance of image processing implemented in Halide and Python. The focus is on tiled image processing, specifically evaluating the execution time and resource utilization for various operations such as brightness adjustment, grayscale conversion, and blur. The primary goal is to identify the efficiency and computational advantages of Halide compared to a Python implementation.Image processing is crucial for tasks like medical diagnostics, facial recognition, and autonomous vehicles.The problem has been partially solved before. While significant progress has been made, challenges persist in improving accuracy, handling diverse datasets, and enhancing real-time processing speed. Ongoing efforts focus on refining algorithms, addressing ethical concerns, and adapting to emerging technologies for continued advancements in the field.
 
 ### POPL Angle
 
-- This project aligns with the Principle of Programming Languages (POPL) perspective by exploring the performance implications of using different programming languages for image processing.
-- The POPL angle involves investigating how the choice of programming language influences the execution time, resource utilization, and overall efficiency of the image processing tasks.
-- The key aspects include optimizing code for parallelism, minimizing memory access patterns, and leveraging language-specific features for efficient computation.
+This project aligns with the Principle of Programming Languages (POPL) perspective by exploring the performance implications of using different programming languages for image processing. The POPL angle involves investigating how the choice of programming language influences the execution time, resource utilization, and overall efficiency of the image processing tasks. The key aspects include optimizing code for parallelism, minimizing memory access patterns, and leveraging language-specific features for efficient computation.
 
 ## Software Architecture
 
@@ -98,4 +98,3 @@ Given more time, the project could explore the following areas:
 ## Conclusion
 
 This project delves into the comparative analysis of Halide and Python for tiled image processing, emphasizing the importance of programming language choices in achieving optimal performance. The results and insights gained contribute to the broader understanding of language-specific optimizations in image processing applications.
-
