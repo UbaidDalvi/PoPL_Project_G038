@@ -6,7 +6,9 @@ The project aims to compare the performance of image processing implemented in H
 
 ### POPL Angle
 
-This project aligns with the Principle of Programming Languages (POPL) perspective by exploring the performance implications of using different programming languages for image processing. The POPL angle involves investigating how the choice of programming language influences the execution time, resource utilization, and overall efficiency of the image processing tasks. The key aspects include optimizing code for parallelism, minimizing memory access patterns, and leveraging language-specific features for efficient computation.
+- This project aligns with the Principle of Programming Languages (POPL) perspective by exploring the performance implications of using different programming languages for image processing.
+- The POPL angle involves investigating how the choice of programming language influences the execution time, resource utilization, and overall efficiency of the image processing tasks.
+- The key aspects include optimizing code for parallelism, minimizing memory access patterns, and leveraging language-specific features for efficient computation.
 
 ## Software Architecture
 
