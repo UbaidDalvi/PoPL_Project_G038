@@ -58,10 +58,8 @@ The following POPL aspects are considered in the implementation:
 The following tests were conducted using `perf stat`:
 
 1. Brightness adjustment in Halide and Python.
-
-   ![Image before Processing](PoPL_Project_G038/tests/Mona_Lisa.png)
-3. Grayscale conversion in Halide and Python.
-4. Blur operation in Halide and Python.
+2. Grayscale conversion in Halide and Python.
+3. Blur operation in Halide and Python.
 
 ### Dataset Used
 
