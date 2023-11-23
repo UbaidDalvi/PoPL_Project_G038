@@ -1,6 +1,7 @@
-# /*
-# perf stat python3 tile.py
-# */
+'''
+Execute the performance statistics using the below command:
+perf stat python3 python_tile.py
+'''
 
 import cv2
 import numpy as np
